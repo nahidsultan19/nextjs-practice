@@ -1,4 +1,7 @@
-import Image from 'next/image'
+export const metadata = {
+  title: 'Home',
+  description: 'next app',
+}
 
 const HomePage = () => {
   return (
