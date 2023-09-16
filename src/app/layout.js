@@ -12,7 +12,6 @@ export const metadata = {
 }
 
 const RootLayout = ({ children }) => {
-  console.log('From RootLayout');
   return (
     <html lang="en">
       <body className={inter.className}>

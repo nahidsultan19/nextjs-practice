@@ -9,4 +9,4 @@ const SingleBlog = ({ params }) => {
     );
 };
 
-export default SingleBlog; <h2>Blog</h2>
+export default SingleBlog;
