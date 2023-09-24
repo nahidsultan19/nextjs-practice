@@ -1,13 +1,11 @@
+import Navbar from '@/components/Navbar';
 import Link from 'next/link';
 import React from 'react';
 
 const WithLayout = ({ children }) => {
     return (
         <div>
-            <nav>
-                <Link href="/">Home</Link>
-                <Link href="/about">About</Link>
-            </nav>
+            <Navbar />
             {children}
             <footer>Footer</footer>
         </div>

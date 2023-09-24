@@ -1,3 +1,5 @@
+import SideBar from "./SideBar";
+
 export const metadata = {
     title: 'Dashboard',
     description: 'next app',
@@ -5,8 +7,8 @@ export const metadata = {
 
 const DashboardLayout = ({ children }) => {
     return (
-        <div>
-            <h2>Dashboard Sidebar</h2>
+        <div className="flex container mx-auto">
+            <SideBar />
             {children}
         </div>
     );
