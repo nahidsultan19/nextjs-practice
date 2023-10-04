@@ -1,3 +1,4 @@
+import loadBlogsData from '@/utils/loadBlogsData';
 import Link from 'next/link';
 import React from 'react';
 
@@ -31,14 +32,10 @@ export const metadata = {
 
 const BlogsPage = async () => {
 
-    const res = await fetch('https://jsonplaceholder.typicode.com/posts', {
-        cache: "force-cache"
-    });
-    const blogs = await res.json();
+    const blogs = await loadBlogsData();
 
     return (
         <div className='container mx-auto'>
-            <h2>Blogs page</h2>
             {
                 blogs.map(({ id, body, title }) => (
                     <div key={id} className='border border-blue-700 p-2 my-2'>
