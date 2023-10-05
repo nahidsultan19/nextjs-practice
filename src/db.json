@@ -1,0 +1,62 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Electronics"
+        },
+        {
+            "id": 2,
+            "name": "Clothing"
+        },
+        {
+            "id": 3,
+            "name": "Books"
+        },
+        {
+            "id": 4,
+            "name": "Sports"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "title": "iPhone 11",
+            "price": 999,
+            "categoryId": 1,
+            "features": [
+                "A14 Bionic chip",
+                "Super Retina XDR display",
+                "Dual-camera system"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "iPhone 12",
+            "price": 1000,
+            "categoryId": 1,
+            "features": [
+                "A14 Bionic chip",
+                "Super Retina XDR display",
+                "Dual-camera system"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Harry Poter",
+            "price": 99,
+            "categoryId": 3
+        },
+        {
+            "id": 4,
+            "title": "Football",
+            "price": 100,
+            "categoryId": 4
+        },
+        {
+            "id": 5,
+            "title": "T-Shirt",
+            "price": 99,
+            "categoryId": 2
+        }
+    ]
+}
